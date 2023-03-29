@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Bootcamp-TQI_Kotlin-DIO.iml" filepath="$PROJECT_DIR$/.idea/Bootcamp-TQI_Kotlin-DIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dominando-linguagem-de-programacao-java/Dominando-linguagem-de-programacao-java.iml" filepath="$PROJECT_DIR$/Dominando-linguagem-de-programacao-java/Dominando-linguagem-de-programacao-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dominando-linguagem-de-programacao-java/Logica-condicional-controle-de-fluxo/Logica-condicional-controle-de-fluxo.iml" filepath="$PROJECT_DIR$/Dominando-linguagem-de-programacao-java/Logica-condicional-controle-de-fluxo/Logica-condicional-controle-de-fluxo.iml" />
     </modules>
   </component>
 </project>
