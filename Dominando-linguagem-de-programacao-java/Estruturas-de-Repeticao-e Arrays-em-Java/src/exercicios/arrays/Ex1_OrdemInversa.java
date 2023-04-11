@@ -1,26 +1,26 @@
 package exercicios.arrays;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
 /*
 Crie um vetor de 6 números inteiros
 e mostre-os na ordem inversa.
 */
 public class Ex1_OrdemInversa {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
 
-        int[] vetor = {-5, -6, 15, 50, 8, 4};
+        List<Integer> lista = Arrays.asList(0, 1, 2, 3, 4, 5, 6);
+        System.out.print("Lista em ordem inversa: ");
 
-        //System.out.println(vetor.length);
+        // Inverte a ordem dos elementos da lista
+        Collections.reverse(lista);
 
-        System.out.print("Vetor: ");
-        int count =0;
-        while(count < (vetor.length)) {
-            System.out.print(vetor[count] + " ");
-            count++;
-        }
-
-        System.out.print("\nVetor: ");
-        for(int i = (vetor.length - 1); i >= 0; i --) {
-            System.out.print(vetor[i] + " ");
-        }
-
+        // Imprime a lista em ordem inversa
+        System.out.println(lista);
     }
 }

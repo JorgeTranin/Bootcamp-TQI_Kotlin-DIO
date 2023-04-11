@@ -10,17 +10,16 @@ public class Ex6_Fatorial {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Fatorial: ");
-        int fatorial = scan.nextInt();
+        System.out.print("Digite um número inteiro positivo: ");
+        int numero = scan.nextInt();
 
-        int multiplicacao = 1;
+        int fatorial = 1;
 
-        System.out.print(fatorial +"! = ");
-        for(int i = fatorial ; i >= 1 ; i --) {
-            multiplicacao = multiplicacao * i;
+        for (int i = 1; i <= numero; i++) {
+            fatorial *= i;
         }
 
-        System.out.println(multiplicacao);
+        System.out.println("O fatorial de " + numero + " é " + fatorial);
     }
 
 }
